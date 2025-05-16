@@ -1,0 +1,6 @@
+2025-04-18 15:28:11,057 - INFO - Login success - Username: student
+2025-04-18 15:28:16,667 - ERROR - Login failed - Username: student
+2025-04-18 15:28:21,959 - ERROR - Login failed - Username: wronguser
+2025-04-18 15:29:37,555 - INFO - Login success - Username: student
+2025-04-18 15:29:42,842 - ERROR - Login failed - Username: student
+2025-04-18 15:29:48,468 - ERROR - Login failed - Username: wronguser

@@ -1,0 +1,74 @@
+{
+    "info": {
+      "name": "MockAPI-Test-Collection",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Register User",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://127.0.0.1:5000/register",
+            "protocol": "http",
+            "host": ["127.0.0.1"],
+            "port": "5000",
+            "path": ["register"]
+          },
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"email\": \"eve.holt@reqres.in\",\n  \"password\": \"cityslicka\"\n}"
+          }
+        }
+      },
+      {
+        "name": "Login User",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://127.0.0.1:5000/login",
+            "protocol": "http",
+            "host": ["127.0.0.1"],
+            "port": "5000",
+            "path": ["login"]
+          },
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"email\": \"eve.holt@reqres.in\",\n  \"password\": \"cityslicka\"\n}"
+          }
+        }
+      },
+      {
+        "name": "Get User Info",
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Authorization",
+              "value": "token_1"
+            }
+          ],
+          "url": {
+            "raw": "http://127.0.0.1:5000/user_info",
+            "protocol": "http",
+            "host": ["127.0.0.1"],
+            "port": "5000",
+            "path": ["user_info"]
+          }
+        }
+      }
+    ]
+  }
+  
